@@ -7,11 +7,11 @@ public class ConncurantHasMapExamp extends Thread{
 static ConcurrentHashMap<Integer,String> m=new ConcurrentHashMap<Integer,String>();
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
+		//testing
 		m.put(101, "Hari");
 		m.put(102, "Sam");
 		ConncurantHasMapExamp che=new ConncurantHasMapExamp();
-		
+		//start 
 		che.start();
 		
 		
