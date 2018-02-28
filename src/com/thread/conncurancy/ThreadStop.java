@@ -16,7 +16,6 @@ public class ThreadStop extends Thread{
 	public void run() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("uuuuuu");
 		while(!Thread.currentThread().isInterrupted()){
 		    try{        
 		        Thread.sleep(10);

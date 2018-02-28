@@ -40,6 +40,7 @@ private BlockingQueue<Message> queue;
 			Message msg=new Message(""+i);
 			try {
 				queue.put(msg);
+				System.out.println("Produced "+msg.getMsg());
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
